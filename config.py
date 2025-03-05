@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 29883679
+API_HASH = "3e3c9402774d85220b83e6aef50f6b3e"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "7444175412:AAE-RP2hkubdfd8h0rg6MRo090qxSvG9CAQ"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://Adityasingh98:Adityasingh98@cluster0.t94hu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002395526748
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = 7608400302
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/orange_animedubhindi"
+SUPPORT_GROUP = "https://t.me/+GcSgbHsT3lhiMDll"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "1BZWaqwUAUH5BVT7Tle2SdbtU6VKzh4BNGxvMsI26b7e2wCko2picONrvuHCcp8p-0wgQL_iB9Po0yw4LxAh3xcd7ZOZBFe6wNwKzGi8VHMNtUE_SZjJJiY9oaDWQ9GYiUpxtG6TtYF71qNHdfd3cKfx-a5uccN8LJvGvoDyc2PXaZpJ3LlwZ_H-FnsnM2jteXBv69z6RSw0yvzAMKzJ5lmA0Cksw4ecHaKntMZKvkVt1G8uV31ar_EpuS1JWzjP7yKUSbqJi9K-Atji5j2VGVKzlz5rHNrvehGp6p6rnK3Pnec7HYuFUUkAxoFTivnmpo7DsUXd50h6YgY92PWlPuJZN4qG8sa8="
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
